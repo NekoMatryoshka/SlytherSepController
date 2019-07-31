@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue Mar 20 15:30:57 GMT 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-0162-4408-e7fc-0000047e3df0 
+on database directory C:\Office\Workplace\NetBeans\sep\trunk\SlytherSep\slytherDB with class loader sun.misc.Launcher$AppClassLoader@6bc7c054 
+Loaded from file:/C:/Users/Neko%20Matryoshka/.m2/repository/org/apache/derby/derby/10.10.2.0/derby-10.10.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_144-b01
+user.dir=C:\Office\Workplace\NetBeans\sep\trunk\SlytherSep
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

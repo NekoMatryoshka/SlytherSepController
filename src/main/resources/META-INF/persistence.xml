@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="uk.ac.herts.cs.sep.SlytherPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>uk.ac.herts.cs.sep.slyther.orm.PlayerSnake</class>
+    <class>uk.ac.herts.cs.sep.slyther.orm.GameSnake</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:derby:slytherDB;create=true;user=sep;password=sep"/>
+      <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+      <property name="javax.persistence.jdbc.user" value="sep"/>
+      <property name="javax.persistence.jdbc.password" value="sep"/>
+      <property name="eclipselink.allow-zero-id" value="true"/>
+      <property name="javax.persistence.schema-generation.database.action" value="create"/>
+      <property name="eclipselink.ddl-generation" value="create-tables"/>
+      <property name="eclipselink.create-ddl-jdbc-file-name" value="createDDL_ddlGeneration.jdbc"/>
+      <property name="eclipselink.drop-ddl-jdbc-file-name" value="dropDDL_ddlGeneration.jdbc"/>
+      <property name="eclipselink.ddl-generation.output-mode" value="both"/>
+    </properties>
+  </persistence-unit>
+</persistence>
